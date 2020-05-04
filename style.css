@@ -190,6 +190,9 @@ button:hover {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
 	img#apple {
 		width: 50px;
 		height: 50px;
@@ -260,7 +263,10 @@ button:hover {
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 791px) and (max-width: 1023px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
 	img#apple {
 		width: 50px;
 		height: 50px;
@@ -272,7 +278,7 @@ button:hover {
 
 	.head {
 		position: absolute;
-		left: 65px;
+		left: 165px;
 		top: 25px;
 	}
 
@@ -281,13 +287,13 @@ button:hover {
 		height: 70px;
 		max-width: 100%;
 		position: absolute;
-		left: 440px;
+		left: 470px;
 		top: 4px;
 	}
 
 	.head1 {
 		position: absolute;
-		left: 560px;
+		left: 580px;
 		top: 25px;
 	}
 
@@ -295,6 +301,22 @@ button:hover {
 		position: absolute;
 		left: -70px;
 		top: 130px;
+	}
+
+	.text2 {
+		margin-left: 80px;
+	}
+
+	#ultra {
+		margin-left: 30px;
+	}
+
+	button {
+		margin-left: 125px;
+	}
+
+	#price2 {
+		margin-left: 70px;
 	}
 
 	.desc {
@@ -356,9 +378,10 @@ button:hover {
 	}
 }
 
-@media only screen and (min-width: 411px) and (max-width: 822px) {
+@media only screen and (min-width: 415px) and (max-width: 790px) {
 	body {
 		overflow-x: hidden;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	img#apple {
@@ -366,13 +389,13 @@ button:hover {
 		height: 50px;
 		max-width: 100%;
 		position: absolute;
-		left: 180px;
+		left: 100px;
 		top: 14px;
 	}
 
 	.head {
 		position: absolute;
-		left: 230px;
+		left: 150px;
 		top: 25px;
 	}
 
@@ -381,13 +404,13 @@ button:hover {
 		height: 70px;
 		max-width: 100%;
 		position: absolute;
-		left: 440px;
+		left: 260px;
 		top: 4px;
 	}
 
 	.head1 {
 		position: absolute;
-		left: 550px;
+		left: 360px;
 		top: 25px;
 	}
 
@@ -395,8 +418,41 @@ button:hover {
 		position: relative;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: bold;
+	}
+
+	.text {
+		margin-top: 20px;
+		font-size: 20px;
+		left: -30px;
+	}
+
+	#iphone {
+		margin-left: -50px;
+	}
+
+	#price {
+		margin-left: -60px;
+		font-size: 20px;
+	}
+
+	.text2 {
+		font-size: 20px;
+		margin-top: 100px;
+		margin-left: -330px;
+	}
+
+	#ultra {
+		margin-left: -163px;
+		width: 270px !important;
+		margin-top: -26px;
+	}
+
+	#price2 {
+		font-size: 20px;
+		margin-left: -300px;
+		margin-top: -43px;
 	}
 
 	#sec {
@@ -408,14 +464,18 @@ button:hover {
 
 	button {
 		position: absolute;
-		margin-top: 310px;
-		margin-left: 130px;
+		margin-top: 260px;
+		margin-left: 40px;
+	}
+
+	.pro {
+		font-size: 20px;
 	}
 
 	.desc {
-		margin-top: 130px;
-		margin-left: 10px;
-		font-size: 20px;
+		margin-top: 50px;
+		margin-left: 30px;
+		font-size: 12px;
 		font-weight: bold;
 	}
 
@@ -424,14 +484,14 @@ button:hover {
 		margin-left: -110px;
 		margin-right: 90px;
 		border-bottom: 1px solid white;
-		width: 98%;
+		width: 130%;
 	}
 
 	.s {
-		margin-top: -130px;
-		margin-left: 220px;
+		margin-top: -34px;
+		margin-left: 185px;
 		line-height: 1.5;
-		font-size: 17px;
+		font-size: 8px;
 		position: absolute;
 		list-style: none;
 		text-align: left;
@@ -439,10 +499,10 @@ button:hover {
 
 	.s1 {
 		position: absolute;
-		margin-left: 570px;
-		margin-top: -130px;
+		margin-left: 358px;
+		margin-top: -37px;
 		line-height: 1.5;
-		font-size: 16px;
+		font-size: 8px;
 		list-style: none;
 		text-align: left;
 	}
@@ -476,6 +536,7 @@ button:hover {
 @media only screen and (min-width: 320px) and (max-width: 414px) {
 	body {
 		overflow-x: hidden;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	img#apple {
